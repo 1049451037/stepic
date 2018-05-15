@@ -24,7 +24,7 @@ Stepic uses the Python Image Library
 '''
 
 __author__ = 'Lenny Domnitser <http://domnit.org/>, modified by Qingsong Lv.'
-__version__ = '1.0'
+__version__ = '1.1'
 
 
 import warnings
@@ -95,7 +95,7 @@ def decode_imdata(imdata):
             byte |= pixels[c] & 1
             byte <<= 1
         byte |= pixels[7] & 1
-        yield chr(byte)
+        yield byte
         if pixels[-1] & 1:
             break
 
@@ -103,4 +103,4 @@ def decode_imdata(imdata):
 def decode(image):
     '''extracts data from an image'''
 
-    return ''.join(decode_imdata(image.getdata()))
+    return bytes(decode_imdata(image.getdata()))
