@@ -1,6 +1,6 @@
 # Stepic
 
-This is a package is based on [Stepic](http://domnit.org/stepic/doc/) but the original version only works for Python 2. Therefore, I made some modification to let it work for Python 3.
+This is a package based on [Stepic](http://domnit.org/stepic/doc/) but the original version only works for Python 2. Therefore, I made some modification to let it work for Python 3.
 
 ## Install
 
@@ -21,6 +21,11 @@ cd demo
 ```shell
 python demo.py
 ```
+
+## Requirement
+
+* Python 3
+* PIL
 
 ## More
 
