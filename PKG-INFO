@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: stepic
+Version: 0.3
+Summary: Python image steganography
+Home-page: http://domnit.org/stepic/doc/
+Author: Lenny Domnitser
+Author-email: lenny@domnit.org
+License: GPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Environment :: Console
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python

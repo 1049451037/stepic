@@ -1,0 +1,21 @@
+Usage: stepic [options]
+
+Steganographically hide data in a bitmap-style image, or read hidden data from
+an image
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  --debug               
+  -d, --decode          given an image, write out the hidden data file
+  -e, --encode          given an image and data file, write out a new image
+                        file with the data hidden in it
+  -f FORMAT, --format=FORMAT
+                        output image format (PNG recommended, defaults to
+                        input format)
+  -i FILE, --image-in==FILE
+                        read in image FILE for decoding or encoding
+  -t FILE, --data-in==FILE
+                        read in data FILE for encoding
+  -o FILE, --out==FILE  write out to FILE, data when decoding, image when
+                        encoding

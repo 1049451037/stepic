@@ -1,0 +1,85 @@
+
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module stepic</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>stepic</strong></big></big> (version 0.3)</font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/lenny/domnit.org/home/htdocs/stepic/stepic.py">/home/lenny/domnit.org/home/htdocs/stepic/stepic.py</a></font></td></tr></table>
+    <p><tt>Python&nbsp;image&nbsp;steganography<br>
+&nbsp;<br>
+Stepic&nbsp;hides&nbsp;arbitrary&nbsp;data&nbsp;inside&nbsp;PIL&nbsp;images.<br>
+&nbsp;<br>
+Stepic&nbsp;uses&nbsp;the&nbsp;Python&nbsp;Image&nbsp;Library<br>
+(apt:&nbsp;python-imaging,&nbsp;web:&nbsp;&lt;<a href="http://www.pythonware.com/products/pil/">http://www.pythonware.com/products/pil/</a>&gt;).</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#fffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="Image.html">Image</a><br>
+</td><td width="25%" valign=top><a href="warnings.html">warnings</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="stepic.html#Steganographer">Steganographer</a>
+</font></dt></dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Steganographer">class <strong>Steganographer</strong></a></font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>deprecated<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Steganographer-__init__"><strong>__init__</strong></a>(self, image)</dt></dl>
+
+<dl><dt><a name="Steganographer-decode"><strong>decode</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Steganographer-encode"><strong>encode</strong></a>(self, data)</dt></dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-decode"><strong>decode</strong></a>(image)</dt><dd><tt>extracts&nbsp;data&nbsp;from&nbsp;an&nbsp;image</tt></dd></dl>
+ <dl><dt><a name="-decode_imdata"><strong>decode_imdata</strong></a>(imdata)</dt><dd><tt>Given&nbsp;a&nbsp;sequence&nbsp;of&nbsp;pixels,&nbsp;returns&nbsp;an&nbsp;iterator&nbsp;of&nbsp;characters<br>
+encoded&nbsp;in&nbsp;the&nbsp;image</tt></dd></dl>
+ <dl><dt><a name="-encode"><strong>encode</strong></a>(image, data)</dt><dd><tt>generates&nbsp;an&nbsp;image&nbsp;with&nbsp;hidden&nbsp;data,&nbsp;starting&nbsp;with&nbsp;an&nbsp;existing<br>
+image&nbsp;and&nbsp;arbitrary&nbsp;data</tt></dd></dl>
+ <dl><dt><a name="-encode_imdata"><strong>encode_imdata</strong></a>(imdata, data)</dt><dd><tt>given&nbsp;a&nbsp;sequence&nbsp;of&nbsp;pixels,&nbsp;returns&nbsp;an&nbsp;iterator&nbsp;of&nbsp;pixels&nbsp;with<br>
+encoded&nbsp;data</tt></dd></dl>
+ <dl><dt><a name="-encode_inplace"><strong>encode_inplace</strong></a>(image, data)</dt><dd><tt>hides&nbsp;data&nbsp;in&nbsp;an&nbsp;image</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>__all__</strong> = ('encode_imdata', 'encode_inplace', 'encode', 'decode_imdata', 'decode', 'Steganographer')<br>
+<strong>__author__</strong> = 'Lenny Domnitser &lt;http://domnit.org/&gt;'<br>
+<strong>__version__</strong> = '0.3'</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Lenny&nbsp;Domnitser&nbsp;&lt;<a href="http://domnit.org/">http://domnit.org/</a>&gt;</td></tr></table>
+</body></html>
