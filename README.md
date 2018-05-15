@@ -1,6 +1,16 @@
 # Stepic
 
-This is a package based on [Stepic](http://domnit.org/stepic/doc/) but the original version only works for Python 2. Therefore, I made some modification to let it work for Python 3.
+This is a package based on [Stepic](http://domnit.org/stepic/doc/) but the original version only works for Python 2. Therefore, I made some modifications to let it work for Python 3.
+
+## Requirement
+
+* PIL
+
+So maybe you need:
+
+```shell
+pip install pillow
+```
 
 ## Install
 
@@ -22,11 +32,6 @@ cd demo
 python demo.py
 ```
 
-## Requirement
-
-* Python 3
-* PIL
-
 ## More
 
-Thanks for the author of Stepic really much because [his method](http://domnit.org/blog/2007/02/stepic-explanation.html) to do steganography really inspires me a lot.
+Thanks for the author of Stepic very much because [his method](http://domnit.org/blog/2007/02/stepic-explanation.html) to do steganography really inspires me a lot.
